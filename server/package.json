@@ -8,13 +8,18 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "seed": "node app/seeds/seed.js"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
     "nodemon": "^2.0.12",
+    "permit": "^0.2.4",
     "pg": "^8.7.1",
     "sequelize": "^6.6.5"
   }
